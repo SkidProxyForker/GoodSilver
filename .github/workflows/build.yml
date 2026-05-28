@@ -58,7 +58,7 @@ jobs:
           done
       
       - name: create release
-        uses: soap-phia/gh-large-releases@main
+        uses: ading2210/gh-large-releases@main
         if: startsWith(github.ref, 'refs/tags/')
         with:
           draft: true
